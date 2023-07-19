@@ -1,6 +1,6 @@
 <!-- To nobody's surprise, a profile picture! -->
 <script>
-	export let icon = 1;
+	export let icon;
 	export let alt = "Profile picture";
 	export let online = false;
 	export let size = 1;
@@ -16,11 +16,11 @@
 			title={alt}
 			src={new URL(
 				`./../assets/avatars/icon_${
-					icon === -1 ? 39 : icon === -1 ? "err" : icon - 1
+					icon === -1 ? 21 : icon === -1 ? 21 : icon === -2 ? "err" : icon - 1
 				}.svg`,
 				import.meta.url
 			).href}
-			on:error|once={() => (icon = -1)}
+			on:error|once={() => (icon = "err")}
 			class:loading={icon === -1}
 			draggable={false}
 			width="80%"

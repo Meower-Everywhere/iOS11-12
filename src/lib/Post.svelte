@@ -204,7 +204,7 @@
 		>
 			{#await noPFP ? Promise.resolve(true) : loadProfile(post.user)}
 				<PFP
-					icon={-2}
+					icon={-1}
 					alt="{post.user}'s profile picture"
 					online={$ulist.includes(post.user)}
 				/>
@@ -218,7 +218,7 @@
 									post.user === "Notification" ||
 									post.user.startsWith("Notification to"))
 							? 101
-							: -2
+							: "err"
 						: profile.pfp_data}
 					alt="{post.user}'s profile picture"
 					online={$ulist.includes(post.user)}

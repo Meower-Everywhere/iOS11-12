@@ -337,6 +337,7 @@
 				autocomplete="false"
 				maxlength=""
 				rows="1"
+                autofocus
 				use:autoresize
 				on:input={() => {
 					if ($lastTyped + 1500 < new Date() * 1) {
