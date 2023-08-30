@@ -255,8 +255,8 @@
 		<button
 			class="circle settings"
 			on:click={async () => {
-				localStorage.setItem("meower_linkurl","wss://botserver.bettermeower.app/")
-				localStorage.setItem("meower_apiurl","https://botserverapi.bettermeower.app/")
+				localStorage.setItem("meower_linkurl","wss://server-testing.bettermeower.app/")
+				localStorage.setItem("meower_apiurl","https://api-testing.bettermeower.app/")
 				cljs.disconnect()
 				await tick();
 				location.reload();
