@@ -7,11 +7,11 @@
     import {groupcats} from "./stores.js"
 
     let src = [
-        "https://raw.githubusercontent.com/BetterMeower/BetterMeower-Svelte/master/src/assets/avatars/icon_21.svg",
-        "https://raw.githubusercontent.com/BetterMeower/BetterMeower-Svelte/master/src/assets/avatars/icon_28.svg",
-        "https://raw.githubusercontent.com/BetterMeower/BetterMeower-Svelte/master/src/assets/avatars/icon_29.svg",
-        "https://raw.githubusercontent.com/BetterMeower/BetterMeower-Svelte/master/src/assets/avatars/icon_30.svg",
-        "https://raw.githubusercontent.com/BetterMeower/BetterMeower-Svelte/master/src/assets/avatars/icon_31.svg"
+        "https://raw.githubusercontent.com/BetterMeower/ClassicClient/master/src/assets/avatars/icon_21.svg",
+        "https://raw.githubusercontent.com/BetterMeower/ClassicClient/master/src/assets/avatars/icon_28.svg",
+        "https://raw.githubusercontent.com/BetterMeower/ClassicClient/master/src/assets/avatars/icon_29.svg",
+        "https://raw.githubusercontent.com/BetterMeower/ClassicClient/master/src/assets/avatars/icon_30.svg",
+        "https://raw.githubusercontent.com/BetterMeower/ClassicClient/master/src/assets/avatars/icon_31.svg"
     ];
 
     let cats = new Array($groupcats).fill({}).map(
