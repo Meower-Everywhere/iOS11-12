@@ -3,6 +3,8 @@
 	The part before the group chats™
 -->
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 <script>
 	import {chatName, chatid, mainPage as page, modalPage, modalShown, chatMembers, chatOwner} from "../lib/stores.js";
 	import Container from "../lib/Container.svelte";
@@ -102,6 +104,9 @@
 					}}
 				></button>
 			</div>
+		</Container>
+		<Container>
+			<span><i class="fas fa-info-circle" style="color: white;"></i> <b>Please note that BetterMeower Classic does not support DMs! Please use <a href="https://app.meower.org">Meower Svelte</a> to see your DMs.</b></span>
 		</Container>
 		<Container>
 			<div class="settings-controls">
