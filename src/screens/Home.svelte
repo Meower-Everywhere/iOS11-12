@@ -164,14 +164,6 @@
 		link.ws.addEventListener("open", listenOnLink);
 	}
 
-	// Replace "dev" in variable name with release when releasing as main
-	// Change variable name to name relevant with the news page's subject.
-	if (localStorage.getItem("classic-release") === null) {
-							$modalPage = "NewsModal";
-							$modalShown = true;
-							spinner.set(false);
-						}
-
 	let _ulist = $ulist;
 	ulist.subscribe(val => {
 		_ulist = val;

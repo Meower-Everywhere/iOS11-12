@@ -25,7 +25,7 @@
 
 	const _user = $user;
 	_user.mode = !_user.mode;
-	_user.theme = "green";
+	_user.theme = "orange";
 
 	let logo, setup, logoImg, loginStatus = "";
 
@@ -44,7 +44,7 @@
 			if (!setup) return;
 			const _user = $user;
 			_user.mode = !_user.mode;
-			_user.theme = "green";
+			_user.theme = "orange";
 			console.log("Setup page loaded sucessfully!")
 			
 
@@ -235,7 +235,7 @@
 				<p class="small">(Several features will be unavailable while not logged in.)</p>
 				<!-- <p class="small">{(linkUrl == "wss://botserver.bettermeower.app/" && "Testing") || (linkUrl == "wss://api.meower.org/v0/cloudlink/" && "Main") || "Other"} Server ({linkUrl})</p> -->
 				<div>
-					<p class="small">BetterMeower Classic v1.0 (Based on BetterMeower v1.5.0)</p>
+					<p class="small">Meower for iOS 12 (Based on BetterMeower Classic)</p>
 					<img
 						src={meowy}
 						alt=""
@@ -246,7 +246,7 @@
 		</div>
 	{:else if $page === "login"}
 		<div class="fullcenter">
-			<h1>Login to BetterMeower</h1>
+			<h1>Login to Meower</h1>
 			
 			<form class="column-ui"
 				on:submit|preventDefault={e => {
@@ -280,7 +280,7 @@
 					}}>Go back</button>
 					<button type="submit">Login</button>
 				</div>
-				<p><i>BetterMeower Classic never saves your username and password to external servers. Your data is encrypted and is only ever sent to the Meower Server.</i></p>
+				<p><i>Meower for iOS 12 never saves your username and password to external servers. Your data is encrypted and is only ever sent to the Meower Server.</i></p>
 			</form>
 		</div>
 	{:else if $page === "join"}
