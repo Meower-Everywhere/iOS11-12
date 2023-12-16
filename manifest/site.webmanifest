@@ -1,20 +1,19 @@
 {
-    "name": "BetterMeower",
-    "short_name": "BetterMeower",
+    "name": "Meower Everywhere",
+    "short_name": "Meower Everywhere",
     "icons": [
         {
-            "src": "/manifest/android-chrome-192x192.png?v5=true",
+            "src": "/manifest/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/manifest/android-chrome-512x512.png?v5=true",
-            "sizes": "512x512",
+            "src": "/manifest/android-chrome-384x384.png",
+            "sizes": "384x384",
             "type": "image/png"
         }
     ],
-    "theme_color": "#2d2d2d",
-    "background_color": "#2d2d2d",
-    "start_url": "https://classic.bettermeower.app",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
