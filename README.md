@@ -1,7 +1,7 @@
 # Meower for iOS 12
 
 > [!Warning]
-> This client is no longer maintained as the codebase has become unmaintable.
+> This client is no longer maintained as the codebase has become too outdated and contains many security vulnerabilities and bugs.
 > 
 > This client will stop functioning on **April 1st 2024**
 
